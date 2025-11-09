@@ -7,3 +7,4 @@ def twoSum(nums: List[int], target: int) -> List[int]:
               l += 1
           else:
               return [l,r]
+      return []
